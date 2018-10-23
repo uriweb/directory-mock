@@ -1,0 +1,156 @@
+#sb-background-image {
+	background-image: url("directory-banner.jpg")
+}
+
+/**
+ * OVERRIDE RESPONSIVE STYLES ON MENU
+ */
+#localnav>ul {
+	display: block;
+	position: relative;
+	top: 0;
+	max-width: 100%;
+	width: 100%;
+	border-bottom: 1px solid #ddd;
+	background: transparent;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	border-radius: 0;
+}
+#localnav>ul li {
+	display: block;
+	float: left;
+	border: none !important;
+	padding-right: 3rem;
+
+}
+#localnav>ul li a {
+	color: #000;
+	padding: .3rem 0;
+}
+
+#localnav>ul li.current-menu-item>a {
+	background: none;
+	background-color: transparent !important;
+	border-bottom-color: #057fd4;
+	border-bottom-width: 3px;
+	border-bottom-style: solid;
+}
+
+/**
+ * FORM
+ */
+
+.directory-form {
+	margin-bottom: 2rem;
+}
+.directory-form fieldset {
+	background-color: #fafafa;
+}
+.directory-form input {
+	font-family: "Hind",Arial,sans-serif;
+}
+.directory-form input[type="text"] {
+	font-size: 1.25rem;
+	padding: .5rem;
+	width: 28em;
+}
+.directory-form input[type="submit"] {
+	background-color: #002147;
+	border: 0;
+	border-radius: 2px;
+	color: #fff;
+	font-size: 1rem;
+	font-weight: bold;
+	margin-top: -.1em;
+	padding: .75rem 2rem;
+	text-transform: uppercase;
+}
+
+.directory-form .auth {
+	margin-top: 1.5rem;
+	margin-bottom: 0;
+}
+.auth .explain {
+	display: block;
+	font-size: small;
+}
+
+.a-z {
+	font-weight: bold;
+	padding: 1.5rem 0 0;
+}
+.a-z a, .a-z span {
+	display: inline-block;
+	padding: .25em;
+}
+.a-z span {
+	color: #999;
+}
+.a-z .current-menu-item {
+	background-color: #0047c2;
+	color: #fff;
+}
+
+/** 
+ * RESULTS
+ */
+.result {
+	border: 2px solid #ddd;
+	border-width: 2px 0 0;
+	font-family: Hind, Arial, sans-serif;
+	margin-bottom: 2rem;
+	padding: 1.4rem 1rem;
+	position: relative;
+}
+
+.result .p-category {
+	background-color: #ddd;
+	font-size: 1rem;
+	font-weight: bold;
+	padding: 1rem 2rem;
+	position: absolute;
+	text-transform: uppercase;
+	top: 0; right: 0;
+}
+.result.staff {
+	border-color: #c4960c;
+	border-image: linear-gradient(to right, #ddd 0%, #c4960c 100%);
+	border-image-slice: 1;
+}
+.result.staff .p-category {
+	background-color: #c4960c;
+	color: #000;
+}
+
+.result.faculty {
+	border-color: #002147;
+	border-image: linear-gradient(to right, #ddd 0%, #002147 100%);
+	border-image-slice: 1;
+}
+.result.faculty .p-category {
+	background-color: #002147;
+	color: #fff;
+}
+
+.result.student {
+	border-color: #71B3E1;
+	border-image: linear-gradient(to right, #ddd 0%, #71B3E1 100%);
+	border-image-slice: 1;
+}
+.result.student .p-category {
+	background-color: #71B3E1;
+	color: #fff;
+}
+
+
+
+.result .inside p {
+	margin-bottom: 0;
+}
+
+.result .p-username em {
+	display: inline;
+	font-family: monospace;
+	font-style: normal;
+}
