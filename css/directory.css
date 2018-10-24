@@ -124,6 +124,13 @@ h1.entry-title {
 	position: relative;
 }
 
+.result dt {
+	display: none;
+}
+.result dd {
+	text-indent: 0;
+}
+
 .result .p-category {
 	background-color: #ddd;
 	font-size: .8rem;
