@@ -37,6 +37,11 @@
 	border-bottom-style: solid;
 }
 
+
+h1.entry-title {
+	display: none;
+}
+
 /**
  * FORM
  */
@@ -143,11 +148,6 @@
 	color: #fff;
 }
 
-
-
-.result .inside p {
-	margin-bottom: 0;
-}
 
 .result .p-username em {
 	display: inline;
