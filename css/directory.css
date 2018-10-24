@@ -156,11 +156,14 @@ h1.entry-title {
 	border: 2px solid #ddd;
 	border-width: 2px 0 0;
 	font-family: Hind, Arial, sans-serif;
-	margin-bottom: 2rem;
+	margin-bottom: .5rem;
 	padding: 2rem 1rem 1.4rem;
 	position: relative;
 }
 
+.result dl {
+	margin-bottom: 0;
+}
 .result dt {
 	display: none;
 }
@@ -195,7 +198,7 @@ dd.p-username {
 	}
 	.result .p-category {
 		font-size: 1rem;
-		padding: 1rem 2rem;
+		padding: .25rem 2rem;
 	}
 }
 
@@ -211,12 +214,12 @@ dd.p-username {
 }
 
 .result.faculty {
-	border-color: #002147;
-	border-image: linear-gradient(to right, #ddd 0%, #002147 100%);
+	border-color: #005300;
+	border-image: linear-gradient(to right, #ddd 0%, #005300 100%);
 	border-image-slice: 1;
 }
 .result.faculty .p-category {
-	background-color: #002147;
+	background-color: #005300;
 	color: #fff;
 }
 
