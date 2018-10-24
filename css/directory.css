@@ -202,7 +202,7 @@ dd.p-username {
 	}
 }
 
-
+/*
 .result.staff {
 	border-color: #c4960c;
 	border-image: linear-gradient(to right, #ddd 0%, #c4960c 100%);
@@ -232,7 +232,7 @@ dd.p-username {
 	background-color: #71B3E1;
 	color: #fff;
 }
-
+*/
 
 .result .p-username em {
 	display: inline;
