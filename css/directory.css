@@ -37,6 +37,43 @@
 	border-bottom-style: solid;
 }
 
+/** 
+ * Take SoMe styles from CL
+ */
+.cl-social {
+	display: inline-block;
+	list-style: none;
+	margin: 0;
+	}
+.cl-social li {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+.cl-social li:not(:first-child) {
+	margin-left: 10px;
+}
+.cl-social a {
+	position: relative;
+	top: 0;
+	display: block;
+	width: 0;
+	height: 0;
+	overflow: hidden;
+	padding-left: 20px;
+	padding-bottom: 15px;
+	background-image: url(sprite-social.png);
+	background-repeat: no-repeat;
+	background-size: 60px auto;
+	-webkit-transition: top .1s ease-in-out;
+	transition: top .1s ease-in-out;
+}
+.cl-social a:hover { top: -1px; }
+.cl-social.light a.cl-social-facebook{ background-position: -40px 0 }
+.cl-social.light a.cl-social-instagram{ background-position: -40px -15px }
+.cl-social.light a.cl-social-twitter{ background-position: -40px -30px }
+.cl-social.light a.cl-social-youtube{ background-position: -40px -60px }
+
 
 h1.entry-title {
 	display: none;
